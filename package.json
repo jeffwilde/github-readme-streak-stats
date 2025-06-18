@@ -4,6 +4,15 @@
   },
   "devDependencies": {
     "@prettier/plugin-php": "^0.18.8",
-    "prettier": "^2.6.2"
+    "prettier": "^2.6.2",
+    "vercel": "^43.2.0"
+  },
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "esbuild"
+    ],
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   }
 }
