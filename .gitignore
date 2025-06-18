@@ -14,6 +14,7 @@ package-lock.json
 .env
 DOCKER_ENV
 docker_tag
+.env.secrets
 
 # IDE
 .vscode/
